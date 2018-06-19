@@ -34,13 +34,13 @@ polarization1D <- function(congress = 100, chamber = "house", state = NULL,
     wt <- 0.4153
     # URL <- "ftp://k7moa.com/wf1/Weekly_DW-NOMINATE_31_12.DTA"
     # ideal.points <- foreign::read.dta(URL)
-    ideal.points <- vip::ideal.points.wk31
+    ideal.points <- vizip::ideal.points.wk31
     y1 <- seq(1857, 2015, 2)
   } else if (data.version == "common") {
     wt <- 0.4113
     # URL <- "ftp://k7moa.com/junkord/HANDSL01113C20_BSSE_12.DTA"
     # ideal.points <- foreign::read.dta(URL)
-    ideal.points <- vip::ideal.points.r5
+    ideal.points <- vizip::ideal.points.r5
     y1 <- seq(1857, 2013, 2)
   } else if (data.version == "dw") {
     wt <- 0.3988
@@ -49,13 +49,13 @@ polarization1D <- function(congress = 100, chamber = "house", state = NULL,
     # URL <- "ftp://k7moa.com/junkord/SL01113D21_BSSE_12.DTA"
     # ideal.points.senate <- foreign::read.dta(URL)
     # ideal.points <- rbind(ideal.points, ideal.points.senate)
-    ideal.points <- vip::ideal.points.dw
+    ideal.points <- vizip::ideal.points.dw
     y1 <- seq(1857, 2013, 2)
   }
 
   congressID <- unique(ideal.points$cong)
   id2 <- congressID[35:length(congressID)]
-  state.codes <- vip::stateCodes()
+  state.codes <- vizip::stateCodes()
   ideal.points$statenm <- trimws(ideal.points$statenm)
 
   if (is.null(state) == FALSE) {

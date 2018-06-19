@@ -12,7 +12,7 @@
 overlapEndPoints <- function(congress = 100, chamber = "house",
   data.version = "common", mcdonald = TRUE, stump = TRUE) {
 
-  dat <- vip::idealPoints(congress, chamber, state = NULL, data.version,
+  dat <- vizip::idealPoints(congress, chamber, state = NULL, data.version,
     mcdonald, stump)
   vars <- c("cong", "name", "state.abb", "party2", "dwnom1", "dwnom2", "d2",
             "south", "idno")

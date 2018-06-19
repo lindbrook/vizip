@@ -1,0 +1,33 @@
+---
+title: "Flavors of Ideal Points"
+author: "lindbrook"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Flavors of Ideal Points}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+http://voteview.org/page2a.htm
+
+## Common Space DW-NOMINATE Scores 1st to 113th Congresses
+(http://voteview.org/dwnomin_joint_house_and_senate.htm)
+
+```{r common, fig.width = 5, fig.height = 5, fig.cap = "100th Congress, 1987-89", echo = FALSE}
+vizip::polarization2D(all = TRUE)
+```
+
+## Weekly Constant Space DW-NOMINATE Scores
+(http://voteview.org/Weekly_Constant_Space_DW-NOMINATE_Scores.htm)
+
+```{r weekly, fig.width = 5, fig.height = 5, fig.cap = "100th Congress, 1987-89", echo = FALSE}
+vizip::polarization2D(data.version = "common.weekly", all = TRUE)
+```
+
+##  DW-NOMINATE Scores 1st to 113th Congresses
+(http://voteview.org/dwnomin.htm)
+
+```{r dw, fig.width = 5, fig.height = 5, fig.cap = "100th Congress, 1987-89", echo = FALSE}
+vizip::polarization2D(data.version = "dw", all = TRUE)
+```

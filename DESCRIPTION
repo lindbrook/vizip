@@ -1,8 +1,8 @@
 Package: vizip
 Type: Package
 Title: Visualize Ideal Points
-Version: 0.0.9010
-Date: 2018-06-18
+Version: 0.0.9011
+Date: 2018-06-19
 Author: person("lindbrook", email = "lindbrook@gmail.com", role = c("aut", "cre"))
 Maintainer: lindbrook <lindbrook@gmail.com>
 Description: Compute and visualize three components of political polarization: ideological distance, ideological dispersion and ideological overlap.

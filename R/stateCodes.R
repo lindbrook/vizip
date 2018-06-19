@@ -6,7 +6,7 @@
 #' @export
 
 stateCodes <- function() {
-  ideal.points <- vip::ideal.points.wk31
+  ideal.points <- vizip::ideal.points.wk31
   ideal.points$statenm <- trimws(ideal.points$statenm)
   ideal.points <- ideal.points[ideal.points$statenm != "USA", ]
   voteview.nm <- unique(ideal.points[, c("state", "statenm")])
