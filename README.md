@@ -8,3 +8,4 @@ The current version of this package uses three flavors of ideal points: 1) "comm
 
 In progress ...
 # vizip
+# vizip
