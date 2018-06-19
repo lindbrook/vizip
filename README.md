@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-### vip: vizualize ideal points
+### vizip: vizualize ideal points
 
 Compute and visualize three aspects of political polarization in the US Congress: ideological distance, ideological dispersion and ideological overlap.
 

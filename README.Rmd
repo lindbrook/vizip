@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-### vip: vizualize ideal points
+### vizip: vizualize ideal points
 
 Compute and visualize three aspects of political polarization in the US Congress: ideological distance, ideological dispersion and ideological overlap.
 
