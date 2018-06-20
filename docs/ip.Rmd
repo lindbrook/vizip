@@ -1,0 +1,37 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GitHub Documents
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+## Including Code
+
+http://voteview.org/page2a.htm
+
+## Common Space DW-NOMINATE Scores 1st to 113th Congresses
+(http://voteview.org/dwnomin_joint_house_and_senate.htm)
+
+```{r common, fig.width = 5, fig.height = 5, fig.cap = "100th Congress, 1987-89", echo = FALSE}
+vizip::polarization2D(all = TRUE)
+```
+
+## Weekly Constant Space DW-NOMINATE Scores
+(http://voteview.org/Weekly_Constant_Space_DW-NOMINATE_Scores.htm)
+
+```{r weekly, fig.width = 5, fig.height = 5, fig.cap = "100th Congress, 1987-89", echo = FALSE}
+vizip::polarization2D(data.version = "common.weekly", all = TRUE)
+```
+
+##  DW-NOMINATE Scores 1st to 113th Congresses
+(http://voteview.org/dwnomin.htm)
+
+```{r dw, fig.width = 5, fig.height = 5, fig.cap = "100th Congress, 1987-89", echo = FALSE}
+vizip::polarization2D(data.version = "dw", all = TRUE)
+```
