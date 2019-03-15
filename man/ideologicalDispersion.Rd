@@ -4,9 +4,9 @@
 \alias{ideologicalDispersion}
 \title{Compute ideological dispersion.}
 \usage{
-ideologicalDispersion(congress = 100, chamber = "house", state = NULL,
-  data.version = "common", dimension = "both", wt2D = TRUE,
-  mcdonald = TRUE, stump = TRUE)
+ideologicalDispersion(congress = 100, chamber = "house",
+  state = NULL, data.version = "common", dimension = "both",
+  wt2D = TRUE, mcdonald = TRUE, stump = TRUE)
 }
 \arguments{
 \item{congress}{Numeric. Session number.}

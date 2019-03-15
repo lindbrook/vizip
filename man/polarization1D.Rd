@@ -5,8 +5,8 @@
 \title{1D Plot.}
 \usage{
 polarization1D(congress = 100, chamber = "house", state = NULL,
-  data.version = "common", mcdonald = TRUE, stump = TRUE, alpha = 1/3,
-  ...)
+  data.version = "common", mcdonald = TRUE, stump = TRUE,
+  alpha = 1/3, ...)
 }
 \arguments{
 \item{congress}{Numeric. Session number.}

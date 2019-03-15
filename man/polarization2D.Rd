@@ -5,8 +5,8 @@
 \title{2D Plot (prototype).}
 \usage{
 polarization2D(congress = 100, chamber = "house", state = NULL,
-  data.version = "common", mcdonald = TRUE, stump = TRUE, alpha = 2/3,
-  overlap.trim = 0, wt2D = TRUE, all = TRUE, ...)
+  data.version = "common", mcdonald = TRUE, stump = TRUE,
+  alpha = 2/3, overlap.trim = 0, wt2D = TRUE, all = TRUE, ...)
 }
 \arguments{
 \item{congress}{Numeric. Session number.}

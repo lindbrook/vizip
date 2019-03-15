@@ -5,8 +5,8 @@
 \title{Compute ideological overlap.}
 \usage{
 ideologicalOverlap(congress = 100, chamber = "house", state = NULL,
-  data.version = "common", mcdonald = TRUE, stump = TRUE, wt2D = FALSE,
-  overlap.trim = 0)
+  data.version = "common", mcdonald = TRUE, stump = TRUE,
+  wt2D = FALSE, overlap.trim = 0)
 }
 \arguments{
 \item{congress}{Numeric. Session number.}
